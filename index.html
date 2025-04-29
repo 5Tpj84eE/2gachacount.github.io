@@ -111,9 +111,9 @@
             const totalValue = Math.floor(starGemsValue + ticketsValue);
 
             let resultText = totalGachaCount + "回跳躍できます";
-            if (totalGachaCount >= 90) {
-                const pityCount = Math.floor(totalGachaCount / 90);
-                resultText += "<br>これは天井" + pityCount + "回分です";
+            if (totalGachaCount >= 80) {
+                const pityCount = Math.floor(totalGachaCount / 80);
+                resultText += "<br>これは80連天井" + pityCount + "回分です";
             }
             resultText += "<br>これは" + totalValue + "円分です";
             document.getElementById('result').innerHTML = resultText;
@@ -130,9 +130,9 @@
             const totalValue = Math.floor(diamondsValue + ticketsValue);
 
             let resultText = totalGachaCount + "回変調できます";
-            if (totalGachaCount >= 90) {
-                const pityCount = Math.floor(totalGachaCount / 90);
-                resultText += "<br>これは天井" + pityCount + "回分です";
+            if (totalGachaCount >= 80) {
+                const pityCount = Math.floor(totalGachaCount / 80);
+                resultText += "<br>これは80連天井" + pityCount + "回分です";
             }
             resultText += "<br>これは" + totalValue + "円分です";
             document.getElementById('result2').innerHTML = resultText;
